@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { MenuCategory } from './menu';
+import type { JSX } from 'react';
+
 
 export const icons: Record<MenuCategory, JSX.Element> = {
   FRITTERS: (
