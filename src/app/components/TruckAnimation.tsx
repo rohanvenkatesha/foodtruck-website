@@ -23,7 +23,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaUtensils } from 'react-icons/fa';
+// import { FaUtensils } from 'react-icons/fa';
 
 // A simple, stylized SVG of a food truck.
 // You can replace this with any SVG you like.
