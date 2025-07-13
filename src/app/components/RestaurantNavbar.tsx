@@ -52,12 +52,12 @@ export default function RestaurantNavbar() {
           </ul>
 
           {/* Reserve Button */}
-          <a
+          {/* <a
             href="#reservation"
             className="hidden md:inline-block bg-yellow-400 text-orange-900 font-bold px-5 py-2 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transform transition duration-300 ease-out select-none"
           >
             Reserve Table
-          </a>
+          </a> */}
 
           {/* Mobile Hamburger */}
           <button
