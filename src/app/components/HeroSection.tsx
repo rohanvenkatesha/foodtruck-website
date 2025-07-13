@@ -77,52 +77,54 @@ export default function HeroSection() {
         >
           <FoodTruckIcon />
         </motion.div>
+<motion.h1
+  className=" text-2xl md:text-7xl font-bold tracking-tight uppercase mb-4 bg-gradient-to-r from-orange-300 via-orange-500 to-yellow-400 text-transparent bg-clip-text animate-gradient"
+  style={{ backgroundSize: '200% 200%' }}
+  initial="hidden"
+  animate="visible"
+  variants={{
+    hidden: {},
+    visible: { transition: { staggerChildren: 0.05 } },
+  }}
+>
+  {splitTextIntoMotions(titleText)}
+</motion.h1>
 
-        <motion.h1
-          className="text-5xl md:text-7xl font-bold tracking-tight uppercase mb-4 bg-gradient-to-r from-orange-300 via-orange-500 to-yellow-400 text-transparent bg-clip-text animate-gradient"
-          style={{ backgroundSize: '200% 200%' }}
-          initial="hidden"
-          animate="visible"
-          variants={{
-            hidden: {},
-            visible: { transition: { staggerChildren: 0.05 } },
-          }}
-        >
-          {splitTextIntoMotions(titleText)}
-        </motion.h1>
 
         <motion.p
-          className="mt-2 text-lg md:text-xl text-white/90 max-w-2xl mx-auto"
+          className="mt-2 text-sm sm:text-base md:text-lg text-white/90 max-w-2xl mx-auto"
           style={{ textShadow: '1px 1px 5px rgba(223, 84, 14, 0.5)' }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          Bringing the authentic flavors of India to Westwood, one delicious meal at a time.
+         From the heart of India to the streets of Elk Rapids — spice up your day!
         </motion.p>
 
         <motion.div
-          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.5, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <motion.a
-            href="#today"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="group inline-flex items-center gap-3 px-8 py-3 rounded-full bg-orange-600 text-white font-semibold text-lg shadow-lg hover:shadow-xl hover:bg-orange-500 transition-all duration-300"
-          >
-            Today&apos;s Specials
-          </motion.a>
-          <motion.a
-            href="#menu"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="group inline-flex items-center gap-3 px-8 py-3 rounded-full bg-white/20 border border-white/50 text-white backdrop-blur-md font-semibold text-lg shadow-lg hover:shadow-xl hover:bg-white/30 transition-all duration-300"
-          >
-            Full Menu
-          </motion.a>
+<motion.a
+  href="#today"
+  whileHover={{ scale: 1.05, y: -2 }}
+  whileTap={{ scale: 0.95 }}
+  className="group inline-flex items-center gap-2 px-5 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-full text-sm sm:text-base md:text-lg font-semibold bg-orange-600 text-white shadow-lg hover:shadow-xl hover:bg-orange-500 transition-all duration-300"
+>
+  Today&apos;s Specials
+</motion.a>
+
+<motion.a
+  href="#menu"
+  whileHover={{ scale: 1.05, y: -2 }}
+  whileTap={{ scale: 0.95 }}
+  className="group inline-flex items-center gap-2 px-5 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-full text-sm sm:text-base md:text-lg font-semibold bg-white/20 border border-white/50 text-white backdrop-blur-md shadow-lg hover:shadow-xl hover:bg-white/30 transition-all duration-300"
+>
+  Full Menu
+</motion.a>
+
         </motion.div>
       </motion.div>
     </section>
