@@ -1,6 +1,6 @@
 // src/data/menu.ts
 
-import { JSX } from 'react';
+// import { JSX } from 'react';
 
 export type MenuTag = 'Veg' | 'GF' | 'Vegan' | 'Nut-free';
 
