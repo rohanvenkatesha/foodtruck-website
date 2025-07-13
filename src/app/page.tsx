@@ -4,9 +4,9 @@ import HeroSection from './components/HeroSection'; // Assuming these are in the
 import TodaySpecials from './components/TodaySpecials';
 import MenuSection from './components/MenuSection';
 import Footer from './components/Footer';
-import DescriptionSection from './components/DescriptionSection';
-import RestaurantNavbar from './components/RestaurantNavbar';
-import ProfileCard from './components/ProfileCard';
+// import DescriptionSection from './components/DescriptionSection';
+// import RestaurantNavbar from './components/RestaurantNavbar';
+// import ProfileCard from './components/ProfileCard';
 
 export default function Home() {
   return (
