@@ -4,6 +4,7 @@ import React, { useRef, useState } from 'react';
 import { motion, Variants } from 'framer-motion';
 import { Sun, Users, Music, Shuffle } from 'lucide-react';
 import { eventPhotos, initialPlacements, GalleryEvent } from '../data/gallery';
+import Image from 'next/image'
 
 // --- Variants ---
 const containerVariants: Variants = {
@@ -28,15 +29,15 @@ const itemVariants: Variants = {
 };
 
 // --- Sub-Components ---
-const CategoryIcon: React.FC<{ category: GalleryEvent['category'] }> = ({ category }) => {
-  const iconProps = { className: 'w-4 h-4 text-orange-600' };
-  switch (category) {
-    case 'Event': return <Sun {...iconProps} />;
-    case 'People': return <Users {...iconProps} />;
-    case 'Vibes': return <Music {...iconProps} />;
-    default: return null;
-  }
-};
+// const CategoryIcon: React.FC<{ category: GalleryEvent['category'] }> = ({ category }) => {
+//   const iconProps = { className: 'w-4 h-4 text-orange-600' };
+//   switch (category) {
+//     case 'Event': return <Sun {...iconProps} />;
+//     case 'People': return <Users {...iconProps} />;
+//     case 'Vibes': return <Music {...iconProps} />;
+//     default: return null;
+//   }
+// };
 
 const CollageItem: React.FC<{
   item: GalleryEvent;
@@ -63,9 +64,11 @@ const CollageItem: React.FC<{
         className="relative w-full h-full rounded-xl shadow-2xl overflow-hidden transition-transform duration-300 ease-in-out"
         style={{ transform: `rotate(${placement.rotation}deg)` }}
       >
-        <img
+        <Image
           src={item.img}
           alt={item.title}
+          width={240}
+          height={240}
           className="w-full h-full object-cover pointer-events-none"
           onError={(e) => {
             const target = e.target as HTMLImageElement;

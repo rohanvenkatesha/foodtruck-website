@@ -36,13 +36,13 @@ export const eventPhotos: GalleryEvent[] = [
     title: 'Family Fun',
     description: 'Parents and kids enjoying our signature dishes.'
   },
-  {
-    id: '5',
-    img: 'https://images.unsplash.com/photo-1514514788781-6b55c9c5a976?q=80&w=1800&auto=format&fit=crop',
-    category: 'Vibes',
-    title: 'Truck Setup',
-    description: 'A look at our polished food truck ready for action.'
-  },
+//   {
+//     id: '5',
+//     img: 'https://images.unsplash.com/photo-1514514788781-6b55c9c5a976?q=80&w=1800&auto=format&fit=crop',
+//     category: 'Vibes',
+//     title: 'Truck Setup',
+//     description: 'A look at our polished food truck ready for action.'
+//   },
   {
     id: '6',
     img: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1800&auto=format&fit=crop',
@@ -93,13 +93,13 @@ export const eventPhotos: GalleryEvent[] = [
     title: 'Family Fun',
     description: 'Parents and kids enjoying our signature dishes.'
   },
-  {
-    id: '13',
-    img: 'https://images.unsplash.com/photo-1514514788781-6b55c9c5a976?q=80&w=1800&auto=format&fit=crop',
-    category: 'Vibes',
-    title: 'Truck Setup',
-    description: 'A look at our polished food truck ready for action.'
-  },
+//   {
+//     id: '13',
+//     img: 'https://images.unsplash.com/photo-1514514788781-6b55c9c5a976?q=80&w=1800&auto=format&fit=crop',
+//     category: 'Vibes',
+//     title: 'Truck Setup',
+//     description: 'A look at our polished food truck ready for action.'
+//   },
   {
     id: '14',
     img: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1800&auto=format&fit=crop',
@@ -143,20 +143,20 @@ export const eventPhotos: GalleryEvent[] = [
     title: 'Evening Lights',
     description: 'A cozy food truck ambiance under string lights.'
   },
-  {
-    id: '20',
-    img: 'https://images.unsplash.com/photo-1598515214212-7363cb5f5fcf?q=80&w=1800&auto=format&fit=crop',
-    category: 'People',
-    title: 'Family Fun',
-    description: 'Parents and kids enjoying our signature dishes.'
-  },
-  {
-    id: '21',
-    img: 'https://images.unsplash.com/photo-1514514788781-6b55c9c5a976?q=80&w=1800&auto=format&fit=crop',
-    category: 'Vibes',
-    title: 'Truck Setup',
-    description: 'A look at our polished food truck ready for action.'
-  },
+//   {
+//     id: '20',
+//     img: 'https://images.unsplash.com/photo-1598515214212-7363cb5f5fcf?q=80&w=1800&auto=format&fit=crop',
+//     category: 'People',
+//     title: 'Family Fun',
+//     description: 'Parents and kids enjoying our signature dishes.'
+//   },
+//   {
+//     id: '21',
+//     img: 'https://images.unsplash.com/photo-1514514788781-6b55c9c5a976?q=80&w=1800&auto=format&fit=crop',
+//     category: 'Vibes',
+//     title: 'Truck Setup',
+//     description: 'A look at our polished food truck ready for action.'
+//   },
   {
     id: '22',
     img: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1800&auto=format&fit=crop',
