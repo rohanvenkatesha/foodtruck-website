@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from 'react';
 import { motion, Variants } from 'framer-motion';
-import { Sun, Users, Music, Shuffle } from 'lucide-react';
+import { Shuffle } from 'lucide-react';
 import { eventPhotos, initialPlacements, GalleryEvent } from '../data/gallery';
 import Image from 'next/image'
 
