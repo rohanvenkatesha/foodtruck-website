@@ -5,6 +5,8 @@ import TodaySpecials from './components/TodaySpecials';
 import MenuSection from './components/MenuSection';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import GalleryGrid from './components/Gallery';
+// import { galleryItems } from './data/gallery';
 // import DescriptionSection from './components/DescriptionSection';
 // import RestaurantNavbar from './components/RestaurantNavbar';
 // import ProfileCard from './components/ProfileCard';
@@ -22,6 +24,9 @@ export default function Home() {
       <HeroSection />
       <TodaySpecials />
       <MenuSection />
+<GalleryGrid/>
+
+
       <Footer/>
     </main>
   );
